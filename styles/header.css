@@ -1,0 +1,34 @@
+
+
+.container__header {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    padding: 1rem 0;
+    justify-content: space-around
+}
+
+
+
+.header__link {
+    text-decoration: none;
+    color: var(--cinza);
+    margin-right: 1.5em;
+}
+
+
+.container__buttons button {
+    background-color: transparent;
+    border: 0;
+    border-radius: 8px;
+    color: var(--cinza);
+    padding: 0.8em 1.2em;
+}
+
+#button {
+    background-color: var(--vermelho);
+    border: 0;
+    border-radius: 8px;
+    color: var(--branco);
+    padding: 0.8em 1.2em;
+}
