@@ -1,0 +1,36 @@
+
+.container__info {
+    margin: 0 0 6em 0;
+}
+
+.infos {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5em;
+    gap: 1.2em;
+}
+
+.info-item {
+    width: 51%;
+}
+
+
+.info-number {
+    font-size: 3.5em;
+    color: var(--vermelho);
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.info-subtitle {
+    font-size: 1em;
+    color: var(--titulo);
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.info-text {
+    margin-top: 8px;
+    color: var(--cinza);
+    line-height: 1.3em;
+}

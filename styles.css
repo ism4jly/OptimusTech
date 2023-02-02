@@ -1,5 +1,6 @@
 @import url("./styles/header.css");
 @import url("./styles/about.css");
+@import url("./styles/info.css");
 
 
 :root {
@@ -13,6 +14,7 @@
 }
 
 body {
+    box-sizing: border-box;
     width: 100%;
     height: 100vh;
     background-color: var(--branco);
