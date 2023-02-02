@@ -1,0 +1,28 @@
+
+.container__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 6em 0;
+}
+
+.container__about span {
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.container__about h1 {
+    font-weight: 600;
+    color: var(--titulo);
+    font-size: 2.5em;
+}
+
+.container__about p {
+    font-weight: 20;
+    color: var(--cinza);
+    width: 46%;
+    text-align: center;
+    line-height: 25px;
+}
