@@ -1,0 +1,46 @@
+
+
+.container__position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6em;
+}
+
+.position-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 4em;
+}
+
+.open-position {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 1em;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    color: var(--vermelho);
+    font-weight: 500;
+    
+}
+
+.position-title {
+    font-size: 1.9em;
+    font-weight: 600;
+    color: var(--titulo);
+}
+
+.position-text {
+    font-size: 1.1em;
+    color: var(--cinza);
+}
+
+.position-image {
+    width: 80%;
+}
+
+
