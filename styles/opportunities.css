@@ -1,0 +1,45 @@
+
+.container__form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2.5em;
+    padding: 6em;
+}
+
+
+
+.opportunities h2 {
+    font-weight: 600;
+    font-size: 2.2em;
+    color: var(--titulo);
+}
+
+.opportunities p {
+    font-size: 1.2em;
+    color: var(--cinza);
+    margin-top: 1.5em;
+}
+
+.form input {
+    width: 25%;
+    padding: 12px;
+    border: 1px solid rgba(211, 211, 211, 1);
+    border-radius: 0.5em;
+    color: var(--cinza);
+    margin-right: 1em;
+}
+
+.form button {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    padding: 12px 20px;
+    border-radius: 0.5em;
+    border: 0;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.rights {
+    color: var(--cinza-claro);
+}
